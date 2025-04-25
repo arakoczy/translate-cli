@@ -1,0 +1,26 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "A CLI tool to translate language in the terminal.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "translate"
+  ],
+  "type": "module",
+  "bin": {
+    "translate": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.2",
+    "ora": "^8.2.0",
+    "yargs": "^16.1.1"
+  }
+}
